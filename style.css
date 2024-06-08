@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.upperbar {
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+
+.category {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+.red {
+    color: red;
+}
+
+.more {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 56px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.img {
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.corner {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* justify-content: flex-end; */
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a red {
+    color: red;
+}
+
+.p {
+    display: inline;
+    text-decoration: underline;
+    font-family: system-ui;
+}
+
+.first {
+    position: relative;
+    /* left: 50px; */
+}
+
+.r {
+    position: relative;
+    left: 50px;
+    margin-left: 110px;
+    bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.q {
+    position: relative;
+    margin-left: 58px;
+    bottom: 50px;
+}
+
+a.ho:hover {
+    background-color: black;
+    color: white;
+}
+
+.eos {
+    position: relative;
+    left: 166px;
+    bottom: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.eosd {
+    position: relative;
+    left: 166px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1.5px;
+    bottom: 18px;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    width: 100vw;
+    height: 240px;
+    display: flex;
+    background-color: rgb(133, 43, 43);
+}
+.box1 {
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 170px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.box2,.box3,.box4 {
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    transform: translateY(-20px);
+}
+.box1 a:hover,.box2 a:hover,.box3 a:hover,.box4 a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.c2{
+    position: relative;
+    top: 110px;
+    width: 100vw;
+    display: flex;
+}
+.b1,.b2,.b3,.b4,.b5,.b6{
+    height: 512px;
+    width: 200px;
+    list-style: none;
+    font-family: system-ui;
+}
+.b1{
+    margin-left: 170px;
+}
+.c3{
+    position: relative;
+    top: 200px;
+    height: 150px;
+    width: 100vw;
+    background-color: #ede734;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;
+    align-items: center; */
+    font-family: system-ui;
+    font-size: 30px
+}
+.c33{
+   position: relative;
+}
+button{
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    left: 35px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 190px;
+    font-family: sans-serif;
+}
+button img{
+    position: relative;
+    top: 3px;
+}
+a button:hover{
+    color: grey;
+    cursor: pointer;
+}
+.our{
+    position: relative;
+    top: 87px;
+    left: 168px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+.ad{
+    position: relative;
+    top: 150px;
+    left: 170px;
+    font-family: system-ui;
+    font-size: 20px;
+}
+.shop{
+    position: relative;
+    top: 160px;left: 170px;
+    width: 836px;
+    font-family: system-ui;
+}
+.c4{
+    position: relative;
+    top: 230px;
+    width: 100vw;
+    display: flex;
+    /* background-color: aqua; */
+}
+.bb1,.bb2,.bb3,.bb4,.bb5,.bb6{
+    height: 512px;
+    width: 209px;
+    list-style: none;
+    /* border: 1px solid; */
+    position: relative;
+    left: 246px;
+    font-family: system-ui;
+}
+ul li{
+    margin-bottom: 10px;list-style: none;
+}
+.foot{
+    position: relative;
+    top: 120px;
+    background-color: #282c31;
+    width: 100vw;
+    height: 150px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.privacy{
+    margin: 10px;
+}
+.copyy{
+    color: grey;
+    position: relative;
+    top: 95px;
+    left: 640px
+}
